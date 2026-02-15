@@ -1,0 +1,8 @@
+# For HTML files, enforce LF line endings
+*.html text eol=lf
+
+# For scripts or batch files, enforce CRLF line endings
+*.bat text eol=crlf
+
+# For all other text files, normalize to LF
+* text=auto
